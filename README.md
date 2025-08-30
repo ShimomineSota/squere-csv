@@ -1,6 +1,6 @@
-# Square CSV エクスポートツール
+# Square CSV
 
-Square APIを使用してオーダー情報をCSV形式で出力するツールです。
+Square APIを使用してオーダー情報をCSV形式で出力します。
 
 ## 機能
 
