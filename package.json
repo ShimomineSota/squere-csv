@@ -1,0 +1,21 @@
+{
+	"dependencies": {
+		"date-fns": "^4.1.0",
+		"square": "^43.0.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2",
+		"@types/bun": "latest"
+	},
+	"scripts": {
+		"start": "bun run src/index.ts",
+		"check": "biome check ./src --write --unsafe"
+	},
+	"name": "squere-csv",
+	"module": "src/index.ts",
+	"type": "module",
+	"private": true,
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
